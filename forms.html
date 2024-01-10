@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form>
+        <label>First name:</label>
+        <input type="text" id="first name" name="first name" placeholder="necessary"><br><br>
+        <label>Second name:</label>
+        <input type="text" id="Second name" name="Second name"><br><br>
+        <label>E-mail adress:</label>
+        <input type="text" id="E-mail adress" name="E-mail adress"><br><br>
+    <label>Password:</label>
+    <input type="password" id="Pwd" name="Password"><br><br>
+    <label>Date of birth</label>
+    <input type="date" ></input><br><br>
+    <button >Let me In!</button>
+    <button>Reset</button>
+    <p>Please input a number between 1 and 10 </p>
+    <input id="n" type="number">
+    <button type="submit" onclick="pp()">Submit</button>
+</form>
+    <script>
+function pp(){
+   
+   number=document.getElementById("n").value;
+if (number>=1 && number<=10){
+    document.write("number is correct")
+}
+else {
+    document.write("number is incorrect ")
+}
+}
+
+
+   
+   
+</script>
+    
+    
+</body>
+</html>
